@@ -1,0 +1,23 @@
+.todoAppContainer {
+  background-color: antiquewhite;
+  padding: 20px;
+  width: 44rem;
+}
+
+.filterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#list-input {
+  cursor: pointer;
+}
+
+.noItem {
+  display: flex;
+  background-color: white;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
