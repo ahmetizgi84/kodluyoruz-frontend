@@ -9,23 +9,11 @@ function App() {
   const [list, setList] = React.useState([
     {
       isDone: false,
-      title: "Tamamlanmamış",
+      title: "Taste JavaScript",
     },
     {
       isDone: true,
-      title: "Tamamlanmış",
-    },
-    {
-      isDone: false,
-      title: "Ekmek alınacak",
-    },
-    {
-      isDone: false,
-      title: "Talı yapılacak",
-    },
-    {
-      isDone: true,
-      title: "Süt ısıtılacak",
+      title: "Code furiously",
     },
   ]);
   const [yedekList, setYedekList] = React.useState([...list]);
