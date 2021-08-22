@@ -2,3 +2,8 @@
   display: flex;
   justify-content: center;
 }
+
+.currentDay {
+  background-color: #f6fafd;
+  min-height: 200px;
+}
