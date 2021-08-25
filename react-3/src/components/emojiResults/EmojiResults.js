@@ -22,7 +22,12 @@ export default class EmojiResults extends PureComponent {
     return (
       <div className="component-emoji-results">
         {this.props.emojiData.map((emojiData) => (
-          <EmojiResultRow key={emojiData.title} symbol={emojiData.symbol} title={emojiData.title} />
+          <EmojiResultRow
+            key={emojiData.title}
+            symbol={emojiData.symbol}
+            title={emojiData.title}
+            data-testid="emoji-title"
+          />
         ))}
       </div>
     );
